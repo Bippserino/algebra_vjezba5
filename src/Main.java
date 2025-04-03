@@ -20,6 +20,9 @@ public class Main {
         System.out.println(dog.move());
         System.out.println(fish.move());
         System.out.println(bird.move());
+
+        professor.addPet(dog);
+        student.addPet(fish);
     }
 
 }

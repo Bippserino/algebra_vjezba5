@@ -18,4 +18,8 @@ public abstract class Person {
     public abstract String live();
     public abstract String eat();
     public abstract String sleep();
+
+    public void addPet(Animal pet) {
+        this.pets.add(pet);
+    }
 }
